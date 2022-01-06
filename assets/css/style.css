@@ -346,8 +346,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .hero-img {
   width: 100%;
-  max-height: 100%;
-  /* object-fit: contain; */
+  height: 100vh;
+  object-fit: cover;
 }
 #get-started{
   background: #1b7d0c;
