@@ -633,6 +633,7 @@ section {
 }
 #services .title a {
   color: #111;
+  text-decoration: n;
 }
 #services .box:hover .title a {
   color: #1b7d0c;
