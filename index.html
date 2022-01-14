@@ -170,11 +170,48 @@
       <div class="container" data-aos="fade-up">
         <div class="row">
 
-          <div class="col-lg-5 col-md-6">
-            <div class="about-img" data-aos="fade-right" data-aos-delay="100">
-              <img src="assets/img/about-us/aboutus.jpg" alt="" class="about-us-img img-fluid">
+          <div id="heroSlider" class="carousel slide carousel-container col-lg-5 col-md-6" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="0" class="active indicator" aria-current="true" aria-label="Slide 1" style="background-color: #fff;"></button>
+              <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="1" class="indicator" aria-label="Slide 2" style="background-color: #fff;"></button>
+              <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="2" class="indicator" aria-label="Slide 3" style="background-color: #fff;"></button>
+              <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="3" class="indicator" aria-label="Slide 4" style="background-color: #fff;"></button>
+              <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="4" class="indicator" aria-label="Slide 5" style="background-color: #fff;"></button>
             </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/img/about-us/about1.jpg" alt="..." class="hero-img">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/about-us/about2.jpg" alt="..." class="hero-img">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/about-us/about3.jpg" alt="..." class="hero-img">                
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/about-us/about4.jpg" alt="..." class="hero-img">                
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/about-us/about5.jpg" alt="..." class="hero-img">                
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroSlider" data-bs-slide="prev">
+              <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+              <i class="bi bi-chevron-left h1 chevy"></i>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next " type="button" data-bs-target="#heroSlider" data-bs-slide="next">
+              <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+              <i class="bi bi-chevron-right h1 chevy"></i>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
+
+          <!-- <div class="col-lg-5 col-md-6">
+            <div class="about-img" data-aos="fade-right" data-aos-delay="100">
+              <img src="assets/img/about-us/about1.jpg" alt="" class="about-us-img img-fluid">
+            </div>
+          </div> -->
 
           <div class="col-lg-7 col-md-6">
             <div class="about-content" data-aos="fade-left" data-aos-delay="100">
