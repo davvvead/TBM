@@ -420,15 +420,17 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 .carousel-caption h1 {
-  color: #ee450c;
+  /* color: #ee450c; */
+  color: #fff;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
-.carousel-caption span {
+/* .carousel-caption span {
   color: #1b7d0c;
-}
+} */
 .carousel-caption {
   width: 70%;
+  background: rgba(0, 0, 0, 0.425);
 }
 #get-started a {
   color: #fff;
@@ -538,6 +540,9 @@ section {
   color: #ee450c;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
+}
+#about .about-content p {
+  text-align: justify;
 }
 /* #about .about-content h3 {
   color: #696592;
@@ -674,6 +679,7 @@ section {
   font-size: 16px;
   margin-left: 56px;
   color: black;
+  text-align: justify;
 }
 #why-us .counters {
   padding-top: 40px;
@@ -695,7 +701,7 @@ section {
 
 /* Call To Action Section
 --------------------------------*/
-#call-to-action {
+/* #call-to-action {
   background: #ee450c;
   background-size: cover;
   padding: 40px 0;
@@ -714,8 +720,8 @@ section {
     align-items: center;
     justify-content: flex-end;
   }
-}
-#call-to-action .cta-btn {
+} */
+/* #call-to-action .cta-btn {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -731,7 +737,7 @@ section {
 #call-to-action .cta-btn:hover {
   background: #1bb1dc;
   border: 3px solid #1bb1dc;
-}
+} */
 
 /* Features Section
 --------------------------------*/
@@ -765,9 +771,12 @@ section {
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
-#portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
-  color: #1bb1dc;
+#portfolio p {
+  text-align: justify;
 }
+/* #portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
+  color: #1bb1dc;
+} */
 #portfolio #portfolio-flters li:last-child {
   margin-right: 0;
 }

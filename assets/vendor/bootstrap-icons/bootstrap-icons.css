@@ -405,8 +405,8 @@ url("./fonts/bootstrap-icons.woff?856008caa5eb66df68595e734e59580d") format("wof
 .bi-chevron-double-up::before { content: "\f281"; }
 .bi-chevron-down::before { content: "\f282"; }
 .bi-chevron-expand::before { content: "\f283"; }
-.bi-chevron-left::before { content: "\f284"; }
-.bi-chevron-right::before { content: "\f285"; }
+.bi-chevron-left::before {content: "\f284";background: rgba(0, 0, 0, 0.486);color: #fff; padding: 5px 0;}
+.bi-chevron-right::before { content: "\f285"; background: rgba(0, 0, 0, 0.486);color: #fff; padding: 5px 0;}
 .bi-chevron-up::before { content: "\f286"; }
 .bi-circle-fill::before { content: "\f287"; }
 .bi-circle-half::before { content: "\f288"; }
