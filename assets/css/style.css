@@ -521,6 +521,9 @@ section {
   .section-header p {
     width: 100%;
   }
+  #about .about-content {
+    padding-top: 40px;
+  }
 }
 
 /* Section with background
@@ -533,9 +536,6 @@ section {
 --------------------------------*/
 #about {
   padding: 80px 0;
-}
-#about .about-content {
-  padding-top: 40px;
 }
 #about .about-content h2 {
   color: #ee450c;
