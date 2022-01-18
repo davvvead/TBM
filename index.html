@@ -41,7 +41,9 @@
 </head>
 
 <body>
-  <div class="spinner"></div>
+  <div class="loader_bg">
+    <div class="loader"></div>
+  </div>
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center">
@@ -1115,12 +1117,12 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
-  <script>
-    $(window).on("load",function(){
-      $(".spinner").fadeOut("slow");
-    });
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        setTimeout(function(){
+            $('.loader_bg').fadeToggle();
+        }, 1500);
   </script>
-
 </body>
 
 </html>
